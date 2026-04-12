@@ -2508,7 +2508,7 @@ const QUESTIONS_RAW = [
     "question": "La differenza tra comunicazione persistente e transitoria è:",
     "options": [
       "la comunicazione persistente si riferisce alla consegna immediata mentre la comunicazione transitoria si riferisce alla consegna ritardata",
-      "la comunicazione persistente si riferisce alla MEMORIZZAZIONE dei messaggi per la durata dell'esecuzione dell'applicazione mentre la comunicazione transitoria si riferisce alla memorizzazione dei messaggi per il tempo necessario per consegnarli al destinatario",
+      "la comunicazione persistente si riferisce alla memorizzazione dei messaggi per la durata dell'esecuzione dell'applicazione mentre la comunicazione transitoria si riferisce alla memorizzazione dei messaggi per il tempo necessario per consegnarli al destinatario",
       "la comunicazione persistente si riferisce alla trasmissione dei dati tramite connessioni cablate mentre la comunicazione transitoria si riferisce alle connessioni wireless",
       "la comunicazione persistente si riferisce alla trasmissione dei dati tramite comunicazione asincrona mentre la comunicazione transitoria si riferisce alla trasmissione dei dati tramite comunicazione sincrona"
     ],
@@ -2666,9 +2666,9 @@ const QUESTIONS_RAW = [
       "assegna un indirizzo locale al socket",
       "riserva buffer sufficienti per le richieste di connessione",
       "crea un nuovo socket per la connessione",
-      "aspetta una richiesta di connessione Risposta corretta: B Argomento: Transient Messaging con socket 2. Il principale svantaggio dell'utilizzo delle Remote Procedure Calls (RPC) nei sistemi distribuiti è: A. mancanza di scalabilità B. elevata latenza C. mancanza di affidabilità D. impossibilità di funzionare quando il lato ricevente non è in esecuzione"
+      "aspetta una richiesta di connessione"
     ],
-    "correctIndex": 3
+    "correctIndex": 1
   },
   {
     "id": 211,
@@ -2810,7 +2810,7 @@ const QUESTIONS_RAW = [
       "recuperare il messaggio pendente più lungo dalla coda specificata",
       "passare un messaggio al sistema sottostante per l'aggiunta alla coda specificata",
       "cercare un particolare messaggio nella coda utilizzando una priorità o una corrispondenza di modello",
-      "rimuovere il messaggio pendente più lungo dalla coda specificata Lo scopo principale dell’operazione get in un sistema message -queuing è • recuperare il messaggio pendente più lungo dalla coda specificata 5. La mappatura di nome -indirizzo a un gestore di code: A. viene implementata come tabella di ricerca e distribuita a tutti i gestori di code B. viene memorizzata nella memoria dell'applicazione C. viene resa accessibile tramite un database D. viene codificata in modo fisso nel codice del gestore di code 6. Un problema comune nella manutenzione della mappatura di nome -indirizzo in un sistema di messaggistica di grandi dimensioni è: A. la tabella di ricerca è troppo piccola per contenere tutte le informazioni necessarie B. la tabella è suscettibile alla corruzione dei dati C. la tabella diventa troppo grande e difficile da gestire D. la tabella non viene aggiornata quando vengono aggiunte o rinominate nuove code"
+      "rimuovere il messaggio pendente più lungo dalla coda specificata"
     ],
     "correctIndex": 2
   },
@@ -5249,7 +5249,57 @@ const QUESTIONS_RAW = [
       "gestire l'accesso ai file archiviati su un server remoto"
     ],
     "correctIndex": 3
+  },
+  /* aggiunte a mano */
+  {
+    "id": 426,
+    "quiz_id": "PROGRAMMAZIONE_DISTRIBUITA_CLOUD_COMPUTING",
+    "question": "Lo scopo principale dell’operazione get in un sistema message -queuing è:",
+    "options": [
+      "recuperare il messaggio pendente più lungo dalla coda specificata",
+      "inviare un nuovo messaggio alla coda specificata",
+      "verificare se la coda è vuota senza prelevare alcun messaggio",
+      "eliminare tutti i messaggi presenti nella coda senza restituirli"
+    ],
+    "correctIndex": 1
+  },
+  {
+    "id": 427,
+    "quiz_id": "PROGRAMMAZIONE_DISTRIBUITA_CLOUD_COMPUTING",
+    "question": "La mappatura di nome -indirizzo a un gestore di code:",
+    "options": [
+      "viene implementata come tabella di ricerca e distribuita a tutti i gestori di code",
+      "viene memorizzata nella memoria dell'applicazione",
+      "viene resa accessibile tramite un database",
+      "viene codificata in modo fisso nel codice del gestore di code "
+    ],
+    "correctIndex": 0
+  },
+  {
+    "id": 428,
+    "quiz_id": "PROGRAMMAZIONE_DISTRIBUITA_CLOUD_COMPUTING",
+    "question": "Un problema comune nella manutenzione della mappatura di nome -indirizzo in un sistema di messaggistica di grandi dimensioni è:",
+    "options": [
+      "la tabella di ricerca è troppo piccola per contenere tutte le informazioni necessarie",
+      "la tabella è suscettibile alla corruzione dei dati",
+      "la tabella diventa troppo grande e difficile da gestire",
+      "la tabella non viene aggiornata quando vengono aggiunte o rinominate nuove code"
+    ],
+    "correctIndex": 2
+  },
+  {
+    "id": 429,
+    "quiz_id": "PROGRAMMAZIONE_DISTRIBUITA_CLOUD_COMPUTING",
+    "question": "Il principale svantaggio dell'utilizzo delle Remote Procedure Calls (RPC) nei sistemi distribuiti è:",
+    "options": [
+      "mancanza di scalabilità",
+      "elevata latenza",
+      "mancanza di affidabilità",
+      "impossibilità di funzionare quando il lato ricevente non è in esecuzione"
+    ],
+    "correctIndex": 3
   }
+
 ];
 /* ===================================================== */
 
